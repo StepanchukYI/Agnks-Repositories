@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <!--Project was exported from assembly: C:\AGNKS1\AGNKS\Program\agnks.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1CB6AF4-B35C-4EFF-928A-31D0760D41A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>agnks</AssemblyName>
+    <ApplicationVersion>1.0.2228.24035</ApplicationVersion>
+    <RootNamespace>agnks</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="OPCdotNETLib">
+      <HintPath>lib\OPCdotNETLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmsArhive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmsDataSet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AlarmSound.cs" />
+    <Compile Include="Arhive.cs" />
+    <Compile Include="ChangeDensity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeParam.cs" />
+    <Compile Include="ChangeParamPosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventParam.cs" />
+    <Compile Include="ChangePrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePriceList.cs" />
+    <Compile Include="codprice.cs" />
+    <Compile Include="ChangePricesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeListUser.cs" />
+    <Compile Include="ChangeUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractInput.cs" />
+    <Compile Include="EventInfo.cs" />
+    <Compile Include="ChangeValue.cs" />
+    <Compile Include="DataOfCol.cs" />
+    <Compile Include="DataSet1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="figures.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HTMLReport.cs" />
+    <Compile Include="ListParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newusers.cs">
+      <SubType>Form</SubType>
+      <Generator>newusers.resx</Generator>
+    </Compile>
+    <Compile Include="OPCAdapter.cs" />
+    <Compile Include="Post.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectColReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="WindowOPC.cs" />
+    <Compile Include="ConfigAGNKS\AGNKSconfig.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddPrice.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUserForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlarmsArhive.resx" />
+    <EmbeddedResource Include="Arhive.resx" />
+    <EmbeddedResource Include="ChangeDensity.resx" />
+    <EmbeddedResource Include="ChangeParamPosts.resx" />
+    <EmbeddedResource Include="ChangePasswordForm.resx" />
+    <EmbeddedResource Include="ChangePrice.resx" />
+    <EmbeddedResource Include="ChangePricesForm.resx" />
+    <EmbeddedResource Include="ChangeUserForm.resx" />
+    <EmbeddedResource Include="Form1.resx" />
+    <EmbeddedResource Include="ListParams.resx" />
+    <EmbeddedResource Include="newusers.resx" />
+    <EmbeddedResource Include="Post.resx" />
+    <EmbeddedResource Include="SelectColReport.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPagePover.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="MinFlowBox.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label10.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="EKKAPost2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="tMassKor2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tOutstrip2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageGas.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="label6.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageKor.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="groupBox2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageGas.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="PostZero1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="LightCheck.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="WriteAlarm.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="TotalGas3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="WriteLight.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="DensityBox.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label7.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tOutstrip1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="WriteAlarm.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tMassKor4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="TotalGas3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="MoBox.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label21.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tOutstrip4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ShowOver3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="BeginNightLight.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPagePover.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="timer2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABkAAAAEQAAAAs=</value>
+  </data>
+  <data name="tabPageAlarms.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="$this.TrayLargeIcon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageKor.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="timer1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAARAAAAEQAAAAs=</value>
+  </data>
+  <data name="label19.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.Name" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>EENoYW5nZVBhcmFtUG9zdHM=</value>
+  </data>
+  <data name="label4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageTotalGas.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bTotalGas1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tOutstrip2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ShowOver2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="tOutstrip4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label26.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tOutstrip2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="BeginDayLight.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label16.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageAlarms.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="bTotalGas4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="EKKAPost4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label24.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label11.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label11.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bTotalGas3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bTotalGas2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label22.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bTotalGas2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsAllPosts.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label25.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tMassKor1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="timer2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label25.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="$this.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label23.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label7.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="$this.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="tabPageAlarms.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="tMassKor1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="FBoxLine.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ExitFromForm.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bTotalGas3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="EKKAPost1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="timer3.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC3AAAAEQAAAAs=</value>
+  </data>
+  <data name="TotalGas1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox2.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="groupBox3.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="tabControl1.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="label9.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="timer1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="PostZero2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="BeginNightLight.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ResetAlarmsPost2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tMassKor3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabControl1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="FBoxWordPover.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bTotalGas3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="OnlyPost.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PcAndPost.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="MaxFlowBox.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPagePover.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="timer4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bTotalGas4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageLight.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="timer2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label26.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="MaxFlowBox.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageGas.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label18.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabControl1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="EKKAPost1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ResetAlarmsAllPosts.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label11.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label7.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageRulePosts.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="TestPost3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="timer4.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAKAQAAEQAAAAs=</value>
+  </data>
+  <data name="label14.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label12.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label17.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ShowOver1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="FBoxLine.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label14.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="EKKAPost3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label14.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="DensityBox.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bMassKor3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox6.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label20.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="EKKAPost4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label9.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="WriteAllPosts.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageKor.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="tabPageAlarms.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="groupBox1.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="groupBox4.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="groupBox1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageTotalGas.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label12.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageRulePosts.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="timer3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox5.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageRulePosts.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.Name1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>EENoYW5nZVBhcmFtUG9zdHM=</value>
+  </data>
+  <data name="label5.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ResetAlarmsPost3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox6.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="FlowOnEKM.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tMassKor4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label5.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageTotalGas.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="TotalGas2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox3.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="ExitFromForm.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="WriteK.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageGas.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="tabPagePover.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="FBoxWordPover.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageKor.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="WriteAllPosts.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bMassKor4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="EKKAPost2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label22.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPagePover.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="ResetAlarmsPost4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="BeginDayLight.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label25.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="OnlyPost.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="MoBox.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.Localizable" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label23.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="FlowOnEKM.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label15.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageAlarms.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="MoBox.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label26.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="FlowOnEKM.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bTotalGas2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tOutstrip3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label20.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox2.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="label4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label17.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="MaxFlowBox.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label27.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.Language" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAACBTeXN0ZW0uR2xvYmFsaXphdGlvbi5DdWx0dXJlSW5mbwoAAAAGbV9uYW1lCm1fZGF0YUl0ZW0RbV91c2VVc2VyT3ZlcnJpZGUJY3VsdHVyZUlEDG1faXNSZWFkT25seQtjb21wYXJlSW5mbwh0ZXh0SW5mbwdudW1JbmZvDGRhdGVUaW1lSW5mbwhjYWxlbmRhcgEAAAAAAwMDAwMIAQgBIFN5c3RlbS5HbG9iYWxpemF0aW9uLkNvbXBhcmVJbmZvHVN5c3RlbS5HbG9iYWxpemF0aW9uLlRleHRJbmZvJVN5c3RlbS5HbG9iYWxpemF0aW9uLk51bWJlckZvcm1hdEluZm8nU3lzdGVtLkdsb2JhbGl6YXRpb24uRGF0ZVRpbWVGb3JtYXRJbmZvHVN5c3RlbS5HbG9iYWxpemF0aW9uLkNhbGVuZGFyBgIAAAAAygAAAAB/AAAAAQkDAAAACQQAAAAJBQAAAAoKBAMAAAAgU3lzdGVtLkdsb2JhbGl6YXRpb24uQ29tcGFyZUluZm8CAAAACXdpbjMyTENJRAdjdWx0dXJlAAAICH8AAAB/AAAABAQAAAAdU3lzdGVtLkdsb2JhbGl6YXRpb24uVGV4dEluZm8DAAAAC21fbkRhdGFJdGVtEW1fdXNlVXNlck92ZXJyaWRlDW1fd2luMzJMYW5nSUQAAAAIAQjKAAAAAH8AAAAEBQAAACVTeXN0ZW0uR2xvYmFsaXphdGlvbi5OdW1iZXJGb3JtYXRJbmZvHwAAABBudW1iZXJHcm91cFNpemVzEmN1cnJlbmN5R3JvdXBTaXplcxFwZXJjZW50R3JvdXBTaXplcwxwb3NpdGl2ZVNpZ24MbmVnYXRpdmVTaWduFm51bWJlckRlY2ltYWxTZXBhcmF0b3IUbnVtYmVyR3JvdXBTZXBhcmF0b3IWY3VycmVuY3lHcm91cFNlcGFyYXRvchhjdXJyZW5jeURlY2ltYWxTZXBhcmF0b3IOY3VycmVuY3lTeW1ib2wSYW5zaUN1cnJlbmN5U3ltYm9sCW5hblN5bWJvbBZwb3NpdGl2ZUluZmluaXR5U3ltYm9sFm5lZ2F0aXZlSW5maW5pdHlTeW1ib2wXcGVyY2VudERlY2ltYWxTZXBhcmF0b3IVcGVyY2VudEdyb3VwU2VwYXJhdG9yDXBlcmNlbnRTeW1ib2wOcGVyTWlsbGVTeW1ib2wKbV9kYXRhSXRlbRNudW1iZXJEZWNpbWFsRGlnaXRzFWN1cnJlbmN5RGVjaW1hbERpZ2l0cxdjdXJyZW5jeVBvc2l0aXZlUGF0dGVybhdjdXJyZW5jeU5lZ2F0aXZlUGF0dGVybhVudW1iZXJOZWdhdGl2ZVBhdHRlcm4WcGVyY2VudFBvc2l0aXZlUGF0dGVybhZwZXJjZW50TmVnYXRpdmVQYXR0ZXJuFHBlcmNlbnREZWNpbWFsRGlnaXRzCmlzUmVhZE9ubHkRbV91c2VVc2VyT3ZlcnJpZGUVdmFsaWRGb3JQYXJzZUFzTnVtYmVyF3ZhbGlkRm9yUGFyc2VBc0N1cnJlbmN5BwcHAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAEBAQEJBgAAAAkHAAAACQYAAAAGCQAAAAErBgoAAAABLQYLAAAAAS4GDAAAAAEsBg0AAAABLAYOAAAAAS4GDwAAAALCpAoGEAAAAANOYU4GEQAAAAhJbmZpbml0eQYSAAAACS1JbmZpbml0eQkLAAAACQwAAAAGFQAAAAElBhYAAAAD4oCwygAAAAIAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAQABAQ8GAAAAAQAAAAgDAAAADwcAAAABAAAACAMAAAAL</value>
+  </data>
+  <data name="groupBox1.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="tMassKor1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label13.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="EKKAPost1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox5.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="label21.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageGas.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageAlarms.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label20.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tOutstrip1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="VoBox.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox4.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="tabPageKor.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="PostZero3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tMassKor4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bTotalGas1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="$this.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="tabPagePover.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox5.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="label15.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageLight.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox6.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label8.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageLight.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox5.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="BeginDayLight.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="label6.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label27.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="EKKAPost2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageRulePosts.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="tabPageKor.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="timer1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="LightCheck.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="bMassKor4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox6.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="WriteLight.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bMassKor4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox3.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="bMassKor1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label12.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="$this.TrayHeight" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>UAAAAA==</value>
+  </data>
+  <data name="bMassKor1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ShowOver2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="FBoxWordPover.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tOutstrip4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label10.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox1.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="TestPost4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="tabPageTotalGas.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="FBoxLine.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label18.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="TestPost2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="WriteLight.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox6.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="VoBox.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabControl1.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="WriteAlarm.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox5.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="ResetAlarmsAllPosts.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="OnlyPC.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageTotalGas.DrawGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="label16.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ResetAlarmsPost2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox5.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bTotalGas1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tMassKor2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageLight.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="PcAndPost.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero2.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageTotalGas.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="VoBox.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tOutstrip3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageGas.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageLight.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="groupBox6.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="label24.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="bTotalGas4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tMassKor3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tabPageRulePosts.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="PostZero1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="OnlyPC.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="MinFlowBox.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="PostZero4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label21.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="MinFlowBox.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabControl1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="groupBox1.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label22.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="ResetAlarmsPost1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tMassKor2.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="timer3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label27.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="timer4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ShowOver4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tMassKor3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label19.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label18.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label19.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="LightCheck.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label5.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="WriteK.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TotalGas2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="WriteAllPosts.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label8.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="OnlyPost.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="tOutstrip1.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost2.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label17.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label13.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageRulePosts.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label24.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label15.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabPageLight.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label13.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="EKKAPost3.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label23.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="ResetAlarmsPost3.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="BeginNightLight.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABgAAAL</value>
+  </data>
+  <data name="label6.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label10.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="TestPost4.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="label8.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label9.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tOutstrip3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="DensityBox.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label16.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="OnlyPC.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="tabControl1.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="PcAndPost.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="EKKAPost3.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox4.GridSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuNTAwMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="groupBox1.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+  <data name="groupBox2.SnapToGrid" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=</value>
+  </data>
+  <data name="ExitFromForm.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="EKKAPost4.DefaultModifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="label4.Modifiers" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAExTeXN0ZW0sIFZlcnNpb249MS4wLjUwMDAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAfU3lzdGVtLkNvZGVEb20uTWVtYmVyQXR0cmlidXRlcwEAAAAHdmFsdWVfXwAIAgAAAABQAAAL</value>
+  </data>
+  <data name="WriteK.Locked" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAAs=</value>
+  </data>
+</root>
